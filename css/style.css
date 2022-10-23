@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 20px 0;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+width: 60%;
+}
+.menu{
+
+width: 40%;
+
+}
+.menu ul{
+    
+display: flex;
+    
+justify-content: end;
+    
+align-items: center;
+}
+.menu ul li{
+    
+list-style: none;
+    
+margin-right: 5px;
+}
+.menu ul li h5{
+    
+color: #8b8d99;
+    
+text-transform: capitalize;
+    
+font-size: 15px;
+    
+font-family: 'Poppins', sans-serif;
+    
+font-weight: 500;
+    
+font-size: 18px;
+}
+.menu ul li a{
+    
+text-decoration: none;
+    
+text-transform: capitalize;
+    
+font-size: 15px;
+    
+color: #6534d9;
+    
+font-family: 'Poppins', sans-serif;
+    
+font-weight: 500;
+    
+font-size: 18px;
+}
+.content{
+
+display: flex;
+
+height: 90vh;
+}
+.content_image{
+
+width: 50%;
+
+text-align: center;
+}
+.content_image img{
+    
+width: 80%;
+}
+.content_form{
+
+width: 50%;
+
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+.main_form{
+
+width: 60%;
+}
+.main_form h1{
+    
+font-size: 40px;
+    
+text-transform: capitalize;
+    
+color: #34374d;
+    
+font-family: 'Poppins', sans-serif;
+    
+font-weight: 700;
+}
+.main_form p{
+    
+font-size: 20px;
+    
+margin-top: 5px;
+    
+margin-bottom: 30px;
+    
+color: #34374d;
+    
+font-family: 'Poppins', sans-serif;
+    
+font-weight: 400;
+    
+}
+.main_form form{
+    
+}
+.main_form form input{
+    
+padding: 20px 10px 10px 10px;
+    
+width: 90%;
+    
+margin-bottom: 15px;
+    
+border: 2px solid;
+    
+border-color: #6534d9;
+    
+color: #8b8d99;
+    
+font-family: 'Poppins', sans-serif;
+    
+font-weight: 200;
+    
+font-size: 13px;
+}
+.main_form form input[type="submit"]{
+    
+width: auto;
+    
+padding: 10px 50px;
+    
+background-color: #6534d9;
+    
+border-radius: 35px;
+    
+border-color: none;
+    
+color: #fff;
+    
+font-family: 'Poppins', sans-serif;
+    
+text-transform: uppercase;
+    
+margin-top: 25px;
+    
+font-weight: 400;
+    
+font-size: 15px;
+}
+.bottom{
+
+margin-top: 35px;
+}
+.bottom ul{
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-between;
+}
+.bottom ul li{
+    
+}
+.bottom ul li h6{
+    
+font-size: 15px;
+    
+font-family: 'Poppins', sans-serif;
+    
+color: #8b8d99;
+    
+font-weight: 400;
+    
+font-size: 14px;
+}
+.bottom ul li a{
+
+    
+border: 5ps solid;
+
+    
+font-size: 20px;
+    
+color: #6534d9;
+}
